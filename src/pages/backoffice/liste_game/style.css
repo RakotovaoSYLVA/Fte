@@ -1,0 +1,35 @@
+.bg-image {
+    /* background-image: url("plan.jpg"); Chemin relatif à style.css */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .st1{
+    width: 80%;
+    height: 60%;
+    background-color: rgba(53, 20, 35, 0.1);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    display: flex;   
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .creer{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-bottom: -1%;
+    margin-right: 2%;
+    z-index: 3;
+  }
+
+  .table{
+    height: 60%;
+    width: 90%;
+    
+  }
